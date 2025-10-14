@@ -1,35 +1,45 @@
+// MovieCard.jsx
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const MovieCard = ({ movie:
-    { title, vote_average, poster_path, release_date, original_language }
-                   }) => {
-    return (
-        <div className="movie-card">
-            <img
-                src={poster_path ?
-                    `https://image.tmdb.org/t/p/w500/${poster_path}` : '/no-movie.png'}
-                alt={title}
-            />
+const MovieCard = ({ movie }) => {
+  const { id, title, vote_average, poster_path, release_date, original_language } = movie;
 
-            <div className="mt-4">
-                <h3>{title}</h3>
+  return (
+    <Link to={`/movie/${id}`} className="block">
+      <div className="movie-card hover:transform hover:scale-105 transition-transform duration-300 cursor-pointer">
+        <img
+          src={poster_path
+            ? `https://image.tmdb.org/t/p/w500/${poster_path}`
+            : '/no-movie.png'
+          }
+          alt={title}
+          onError={(e) => {
+            e.target.src = '/no-movie.png';
+          }}
+        />
 
-                <div className="content">
-                    <div className="rating">
-                        <img src="/star.svg" alt="Star Icon" />
-                        <p>{vote_average ? vote_average.toFixed(1) : 'N/A'}</p>
-                    </div>
+        <div className="mt-4">
+          <h3>{title || 'Untitled Movie'}</h3>
 
-                    <span>•</span>
-                    <p className="lang">{original_language}</p>
-
-                    <span>•</span>
-                    <p className="year">
-                        {release_date ? release_date.split('-')[0] : 'N/A'}
-                    </p>
-                </div>
+          <div className="content">
+            <div className="rating">
+              <img src="/star.svg" alt="Star Icon" />
+              <p>{vote_average ? vote_average.toFixed(1) : 'N/A'}</p>
             </div>
+
+            <span>•</span>
+            <p className="lang">{original_language || 'N/A'}</p>
+
+            <span>•</span>
+            <p className="year">
+              {release_date ? release_date.split('-')[0] : 'N/A'}
+            </p>
+          </div>
         </div>
-    )
+      </div>
+    </Link>
+  )
 }
-export default MovieCard
+
+export default MovieCard;

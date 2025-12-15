@@ -2,7 +2,6 @@
 
 ## Stop endless scrolling. Start watching. Screen Savor is the modern web app for finding, previewing, and savoring your next cinematic experience.
 
-## [![Built with HTML, CSS, & JavaScript](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JS-blue?style=flat-square)](https://github.com/gab-dev-7/screen-savor/search?l=javascript)
 
 ## ✨ About the Project
 
@@ -27,7 +26,6 @@ It leverages a powerful **public movie API** (TMDB) to provide up-to-date and co
 - **Trending & Top-rated movies** - Discover what's popular right now
 - **Movie details page** - Full cast, synopsis, ratings, and more
 - **Trailer previews** - Watch trailers without leaving the app
-- **Public deployment** - Live on [screen-savor.gawindlin.com](https://screen-savor.gawindlin.com)
 - **Performance optimized** - Fast loading with lazy-loaded images
 
 ---

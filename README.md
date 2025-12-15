@@ -21,17 +21,18 @@ It leverages a powerful **public movie API** (TMDB) to provide up-to-date and co
 
 ---
 
-##🎯 Features Implemented✅ **Beautiful, responsive interface** - Works seamlessly on desktop and mobile devices
-✅ **Real-time movie search** - Instant filtering as you type
-✅ **Trending & Top-rated movies** - Discover what's popular right now
-✅ **Movie details page** - Full cast, synopsis, ratings, and more
-✅ **Trailer previews** - Watch trailers without leaving the app
-✅ **Public deployment** - Live on [screen-savor.gawindlin.com](https://screen-savor.gawindlin.com)
-✅ **Performance optimized** - Fast loading with lazy-loaded images
+## 🎯 Features Implemented:
+- **Beautiful, responsive interface** - Works seamlessly on desktop and mobile devices
+- **Real-time movie search** - Instant filtering as you type
+- **Trending & Top-rated movies** - Discover what's popular right now
+- **Movie details page** - Full cast, synopsis, ratings, and more
+- **Trailer previews** - Watch trailers without leaving the app
+- **Public deployment** - Live on [screen-savor.gawindlin.com](https://screen-savor.gawindlin.com)
+- **Performance optimized** - Fast loading with lazy-loaded images
 
 ---
 
-##🚀 Future features planned:
+## 🚀 Future features planned:
 
 - ⚙️ **User Preferences:** Implementing local storage to remember user settings, like preferred genres or view modes
 - 🌟 **Watchlist Feature:** Allow users to save movies they want to watch later

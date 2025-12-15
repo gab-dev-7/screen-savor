@@ -1,6 +1,3 @@
-Here is the cleaned-up Markdown code, formatted into a single block for easy copying. I have standardized the indentation, removed excessive whitespace, and ensured the nested lists and code blocks render correctly.
-
-```markdown
 # 🎬 Screen Savor: Your Next Movie Discovery
 
 ## Stop endless scrolling. Start watching. Screen Savor is the modern web app for finding, previewing, and savoring your next cinematic experience.
@@ -45,4 +42,4 @@ It leverages a powerful **public movie API** (TMDB) to provide up-to-date and co
 
 **Screen Savor** © 2024. All rights reserved.
 _Made with ❤️ and lots of movie nights_
-```
+
